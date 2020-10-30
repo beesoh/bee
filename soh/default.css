@@ -311,7 +311,7 @@ a {
 ********************************/
 
 .topbar {
-	background: #4167b2;
+	background: #0b769c;
 	color: #fff;
 	z-index: 1;
 	position: relative;
@@ -796,10 +796,27 @@ a {
 	width: 200px;
 	position: absolute;
 	height: 100%;
-	margin-left: -200px;
+	//margin-left: -200px;
 	overflow-y: auto;
 	overflow-x: hidden;
 	color: #fff;
+}
+.ossn-page-container {
+    margin-left: 200px;
+}
+.topbar-menu-left {
+    display: none;
+}
+@media screen and (max-width:700px){
+	.sidebar {
+	margin-left: -200px;
+}
+.ossn-page-container {
+     margin-left: 0;
+}
+.topbar-menu-left {
+    display: block;
+}
 }
 
 .sidebar a {
