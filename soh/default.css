@@ -818,6 +818,9 @@ a {
     display: block;
 }
 }
+body.ossn-layout-startup-background > div:nth-child(4) > div {
+    margin-left: 0;
+}
 
 .sidebar a {
 	color: #fff;
