@@ -2889,3 +2889,34 @@ span.regis{
 #ossn-login fieldset div label{
 	font-size: 17px;
 }
+li[data-val="1f970"],
+li[data-val="1f929"],
+li[data-val="1f92a"],
+li[data-val="1f92d"],
+li[data-val="1f928"],
+li[data-val="1f929"],
+li[data-val="1f92e"],
+li[data-val="1f92b"],
+li[data-val="1f928"],
+li[data-val="1f92e"],
+li[data-val="1f975"],
+li[data-val="1f976"],
+li[data-val="1f974"],
+li[data-val="1f92f"],
+li[data-val="1f973"],
+li[data-val="1f9d0"],
+li[data-val="1f97a"],
+li[data-val="1f971"],
+li[data-val="1f92c"],
+li[data-val="1f90d"],
+li[data-val="1f92e"],
+li[data-val="1f92e"],
+li[data-val="1f92e"],
+li[data-val="1f92e"],
+li[data-val="1f92e"],
+li[data-val="1f92e"],
+li[data-val="1f92e"],
+li[data-val="1f92e"],
+li[data-val="1f92e"]{
+    display: none !important;
+}
