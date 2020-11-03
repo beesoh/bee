@@ -3030,7 +3030,8 @@ li[data-val="1f92e"]{
 }
 @media screen and (max-width: 870px){
 	.rad-data input{
-	width: 50%;
+	width: 100%;
+  	display: block;
 }
 }
 @media screen and (max-width: 750px){
