@@ -2922,12 +2922,14 @@ li[data-val="1f92e"]{
 }
 
 /*Report*/
+
 .radio-main{
     font-family: sans-serif;
     letter-spacing: 0.4px;
     max-width: 900px;
     border: 1px solid #ddd;
-    padding: 20px;
+    padding: 30px 20px;
+    margin: 30px 0;
     border-radius: 5px;
 }
 .radio {
@@ -2979,16 +2981,20 @@ li[data-val="1f92e"]{
     color: grey;
     text-decoration: underline;
 }
+.rad-content {
+    margin-top: 29px;
+}
+.rad-ol {
+    margin-bottom: 25px;
+}
 .rad-data span{
     display: inline-block;
-    width: 150px;
+    width: 170px;
     margin: 2px;
     padding: 5px;
 }
 .rad-data {
-    position: relative;
-    height: 100px;
-    border: 1px solid red;
+        margin-bottom: 10px;
 }
 .rad-data input{
     border: none;
@@ -2997,13 +3003,8 @@ li[data-val="1f92e"]{
     padding: 5px;
     border-radius: 5px;
     width: 100%;
-    max-width: 300px;
+    max-width: 400px;
     letter-spacing: 0.5px;
-        position: absolute;
-    left: 180px;
-}
-.rad-data input:hover{
-   
 }
 .rad-data input:focus, .radio-btn button:focus, .radiotxt:focus{
      border: 1px solid transparent;
@@ -3027,4 +3028,32 @@ li[data-val="1f92e"]{
 .radio-btn button:hover{
     box-shadow: 0 0 5px 1px #d2dbee;
 }
+@media screen and (max-width: 870px){
+	.rad-data input{
+	width: 50%;
+}
+}
+@media screen and (max-width: 750px){
+.radiotxt {
+    width: 100%;
+}
+}
+@media screen and (max-width: 570px){
+	.radiotxt{
+	width: 80%;
+}
+	.rad-data{
+	height: auto;
+    margin-bottom: 10px;
+}
+	.rad-data input{
+	position: static;
+    display: block;
+}
+	.rad-data input{
+	width: 100%;
+}
+
+}
+
 
