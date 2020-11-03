@@ -2920,3 +2920,111 @@ li[data-val="1f92e"],
 li[data-val="1f92e"]{
     display: none !important;
 }
+
+/*Report*/
+.radio-main{
+    font-family: sans-serif;
+    letter-spacing: 0.4px;
+    max-width: 900px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+.radio {
+    display: block;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 1.8;
+        margin-left: 23px;
+    font-weight: 100;
+}
+.radio input[type="radio"] {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    cursor: pointer;
+    left: -5px;
+    top: 2px;
+}
+.radiotxt{
+    padding: 10px;
+}
+.radiotxt{;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.rad-areat{
+    margin-top: 20px
+}
+.radio-core h2{
+    font-weight: 100;
+    text-align: center;
+}
+.radio-core h3{
+    font-weight: 100;
+    color: #4e4e4e;
+}
+.rad-colord{
+    color: grey
+}
+.rad-info p{
+    font-size: 10px;
+    color: #969696
+}
+.rad-colord li{
+    line-height: 1.5;
+}
+.rad-colord li a{
+    font-size: 14px;
+    color: grey;
+    text-decoration: underline;
+}
+.rad-data span{
+    display: inline-block;
+    width: 150px;
+    margin: 2px;
+    padding: 5px;
+}
+.rad-data {
+    position: relative;
+    height: 100px;
+    border: 1px solid red;
+}
+.rad-data input{
+    border: none;
+    border: 1px solid #ddd;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    letter-spacing: 0.5px;
+        position: absolute;
+    left: 180px;
+}
+.rad-data input:hover{
+   
+}
+.rad-data input:focus, .radio-btn button:focus, .radiotxt:focus{
+     border: 1px solid transparent;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px #d2dbee;
+}
+.radio-btn{
+    margin-top: 20px;
+    text-align: center
+}
+.radio-btn button{
+    padding: 7px 60px;
+    cursor: pointer;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 17px;
+    color: #656565;
+}
+.radio-btn button:hover{
+    box-shadow: 0 0 5px 1px #d2dbee;
+}
+
