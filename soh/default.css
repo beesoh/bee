@@ -2937,7 +2937,7 @@ li[data-val="1f92e"]{
     cursor: pointer;
     font-size: 15px;
     line-height: 1.8;
-        margin-left: 23px;
+        margin-left: 40px;
     font-weight: 100;
 }
 .radio input[type="radio"] {
@@ -3054,7 +3054,9 @@ li[data-val="1f92e"]{
 	.rad-data input{
 	width: 100%;
 }
-
+	.radio {
+    margin-left: 15px;
+}
 }
 
 
