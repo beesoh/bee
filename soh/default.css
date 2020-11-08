@@ -45,6 +45,7 @@ body {
     display: block;
     resize: vertical;
     box-shadow: none;
+	border-radius: 5px;
 }
 
 .ossn-form input[type='number']:focus,
