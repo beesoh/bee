@@ -2044,6 +2044,15 @@ div.token-input-dropdown ul li.token-input-selected-dropdown-item {
 	font-weight: bold;
 }
 
+.dropdown-block {
+    margin: 20px 0;
+        color: #a7a7a7;
+}
+#ossn-home-signup p a {
+    color: #a7a7a7;
+    text-decoration: underline;
+}
+
 
 /*******************************
 	Ossn Blocked
